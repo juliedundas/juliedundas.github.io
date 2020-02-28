@@ -1,0 +1,94 @@
+.navbar-brand {
+  background-color: #0bada6;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+.col-md-8 img {
+  float: left;
+  border: 10px solid #ddd;
+  text-align: center;
+  border-radius: 4px;
+  padding: 0px;
+  width: 40%;
+  height: 35vh;
+  margin: 20px;
+}
+
+h1,
+h2 {
+  color: #0bada6;
+  font-family: "Arial Narrow Bold" sans-serif;
+  font-size: 25%;
+  font-weight: 100;
+  text-align: center;
+  padding: 50px;
+  border-bottom: 1px solid #0bada6;
+}
+
+h3 {
+  color: #0bada6;
+  font-family: "Arial Narrow Bold" sans-serif;
+  font-size: 25%;
+  font-weight: 100;
+  text-align: center;
+  padding: 50px;
+}
+
+p {
+  font-family: sans-serif;
+  padding: 10px;
+}
+
+.col-md-8 {
+  background: #fff;
+  border: 65px solid #ededed;
+}
+
+.col-md-4 {
+  position: relative;
+  background: #fff;
+  border: 50px solid #ededed;
+  border-bottom: 100px solid #ededed;
+}
+
+.col-md-4 img {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+img {
+  width: 75%;
+  height: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+}
+
+.col-sm-6.col-md-6 {
+  padding: 10px;
+  border: 2px solid #000;
+}
+
+/* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
+@media (max-width: 600px) {
+  .navbar.navbar {
+    background-color: #0bada6 !important;
+    border-radius: 2px;
+    padding: 5px;
+  }
+
+  .dropdown-menu {
+    background-color: #ededed !important;
+    border: 10px solid #0000 !important;
+  }
+
+  .dropdown-item {
+    border: 5px solid #0bada6 !important;
+  }
+}
